@@ -1,0 +1,104 @@
+#profile{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%
+}
+
+#profile:hover{
+  transform: scale(1.25);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  background-image: url("images/background.jpeg");
+  background: linear-gradient(#eeeeeecf, rgb(222, 220, 220)), url(images/background.jpeg);
+  background-size: cover;
+}
+
+.line li{
+  display: inline;
+  word-spacing: 5px;
+  padding: 20px;
+  color: black;
+}
+
+.line ul{
+  word-spacing: 85px;
+  text-shadow: 1px 1px grey;
+  font-weight: 100;
+}
+
+.line ul:hover{
+  text-decoration: underline
+}
+
+
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px grey;
+    font-family: Times New Roman;
+    font-weight: 100;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3{
+  font-weight: 100;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+div{
+  margin: 0 auto;
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */ /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;      /* OR subtle border */
+}
+
+
+.movie{
+  border-radius: 2%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 35 auto;
+}
+
+.movie:hover{
+ text-decoration: underline
+}
+
+.movie img:hover{
+  transform: scale(1.5);
+}
+
+.card{
+  width: 600px;
+  margin: 40 auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 1px 1px 1px black;
+}
+
+.bottom{
+  padding: 10px;
+}
+
+td{
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+}
